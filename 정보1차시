@@ -1,0 +1,146 @@
+Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import turtle
+>>> t = turtle.Turtle
+>>> t.shape("turtle")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\blued\AppData\Local\Programs\Python\Python37\lib\turtle.py", line 2774, in shape
+    return self.turtle.shapeIndex
+AttributeError: 'str' object has no attribute 'turtle'
+>>> t.shape("turtle");
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\blued\AppData\Local\Programs\Python\Python37\lib\turtle.py", line 2774, in shape
+    return self.turtle.shapeIndex
+AttributeError: 'str' object has no attribute 'turtle'
+>>> t= turtle.Turtle()
+>>> t.forward(100)
+>>> t.left(60)
+>>> t.left(60)
+>>> t.forward(100)
+>>> t.left(120)
+>>> t.forward(100)
+>>> x = 10
+>>> print(x)
+10
+>>> y = 100
+>>> sum = x + y
+>>> sum
+110
+>>> print(sum)
+110
+>>> t.shape(turtle)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\blued\AppData\Local\Programs\Python\Python37\lib\turtle.py", line 2776, in shape
+    raise TurtleGraphicsError("There is no shape named %s" % name)
+turtle.TurtleGraphicsError: There is no shape named <module 'turtle' from 'C:\\Users\\blued\\AppData\\Local\\Programs\\Python\\Python37\\lib\\turtle.py'>
+>>> t.shape("turtle")
+>>> t.color("blue"(
+... ))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> t.color("blue")
+>>> name = "하수빈"
+>>> address = "충남 아산"
+>>> print(name + "는" address +"에 산다")
+  File "<stdin>", line 1
+    print(name + "는" address +"에 산다")
+                           ^
+SyntaxError: invalid syntax
+>>> import stdin
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'stdin'
+>>> print(name)
+하수빈
+>>> print(address
+... )
+충남 아산
+>>> print("343" + "232")
+343232
+>>> "print(23+32)
+  File "<stdin>", line 1
+    "print(23+32)
+                ^
+SyntaxError: EOL while scanning string literal
+>>> print(23+32)
+55
+>>> print(23+"와")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> input("첫 번째 정수를 입력하세오")
+첫 번째 정수를 입력하세오
+''
+>>> x = int(input("첫 번째 정수를 입력하세요:"))
+첫 번째 정수를 입력하세요:
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: ''
+>>> x
+10
+>>> x = int(input("첫 번째 정수를 입력하세요:"))
+첫 번째 정수를 입력하세요:25
+>>> ㅌ
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ᄐ' is not defined
+>>> x
+25
+>>> y = int(input("두 번째 정수를 입력하세요:))
+  File "<stdin>", line 1
+    y = int(input("두 번째 정수를 입력하세요:))
+                                    ^
+SyntaxError: EOL while scanning string literal
+>>> y = int(input("두 번째 정수를 입력하세요:"))
+두 번째 정수를 입력하세요:30
+>>> print(x + y + x)
+80
+>>> sum(){
+  File "<stdin>", line 1
+    sum(){
+         ^
+SyntaxError: invalid syntax
+>>> sum(){print(x)}
+  File "<stdin>", line 1
+    sum(){print(x)}
+         ^
+SyntaxError: invalid syntax
+>>> name = string(input("이름 입력"))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'string' is not defined
+>>> name = str(input("이름 입력:"))
+이름 입력:하수빈
+>>> nager: string(input("이름 입력:"))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'string' is not defined
+>>> age = int(input("나이를 입력:"))
+나이를 입력:20
+>>> hun = 2024 + (100 - age)
+>>> print(name, "은")
+하수빈 은
+>>> print(name,"은" hun,"년 후에 100 살 입니다.")
+  File "<stdin>", line 1
+    print(name,"은" hun,"년 후에 100 살 입니다.")
+                     ^
+SyntaxError: invalid syntax
+>>> print(name,"은",hun,"년 후에 100 살 입니다."
+... )
+하수빈 은 2104 년 후에 100 살 입니다.
+>>>     print(name,"은" hun,"년에 100 살 입니다.")
+  File "<stdin>", line 1
+    print(name,"은" hun,"년에 100 살 입니다.")
+    ^
+IndentationError: unexpected indent
+>>>     print(name,"은" ,hun,"년에 100 살 입니다.")
+  File "<stdin>", line 1
+    print(name,"은" ,hun,"년에 100 살 입니다.")
+    ^
+IndentationError: unexpected indent
+>>> print(name,"은" ,hun,"년 에 100 살 입니다.")
+하수빈 은 2104 년 에 100 살 입니다.
